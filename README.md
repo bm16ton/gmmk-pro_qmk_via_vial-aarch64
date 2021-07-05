@@ -22,9 +22,9 @@ qmk setup
 make gmmk/pro:via
 
 ### Load the newly created .bin in the qmk/vial folder,with this firmware vial should work;
-# One stock firmware plug keyboard in while holding SPACEBAR and B to enter bootloader,
-# on other firmwares take back of keyboard, press and hold the button just below the f3 and plugin
-# keyboard to enter bootloader;
+### One stock firmware plug keyboard in while holding SPACEBAR and B to enter bootloader,
+### on other firmwares take back of keyboard, press and hold the button just below the f3 and plugin
+### keyboard to enter bootloader;
 dfu-util -a 0 --dfuse-address 0x08000000 -R -D gmmk_pro_via.bin
 
 ### Run vial
