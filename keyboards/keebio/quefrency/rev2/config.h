@@ -66,3 +66,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // Set 65% column (option 3) and Macro (option 4) on by default
 #define VIA_EEPROM_LAYOUT_OPTIONS_DEFAULT 0x00DE
 #define VIA_EEPROM_LAYOUT_OPTIONS_SIZE 2
+
+#define VIAL_KEYBOARD_UID {0x78, 0xFA, 0x96, 0x26, 0x6A, 0x4C, 0xE5, 0x97}
