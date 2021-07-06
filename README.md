@@ -4,8 +4,11 @@ available ones. Didnt keep track or notes but hopefuly most of what needed is;
 
 ### Add udev rule;
 sudo mkdir -p /etc/udev/rules.d/
+
 echo 'KERNEL=="hidraw*", SUBSYSTEM=="hidraw", MODE="0666", TAG+="uaccess", TAG+="udev-acl"' | sudo tee /etc/udev/rules.d/92-viia.rules
+
 sudo udevadm control --reload-rules
+
 sudo udevadm trigger
 
 ### install qmk;
@@ -16,6 +19,7 @@ sudo python install requirements.txt
 
 ### qmk setup;
 cd gmmk-vial
+
 qmk setup
 
 ### make via firmware;
