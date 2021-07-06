@@ -42,6 +42,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ENCODERS_PAD_A_RIGHT { D6 }
 #define ENCODERS_PAD_B_RIGHT { D4 }
 
+#define VIAL_KEYBOARD_UID {0x3A, 0xC7, 0xB6, 0x8B, 0xF1, 0xFE, 0xFF, 0x21}
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
 
